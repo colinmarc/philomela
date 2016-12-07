@@ -1,0 +1,14 @@
+CSRF on POST /delete (!)
+iframe deny header (!)
+log in with email
+edit twines
+
+direct upload w/ other files
+ - upload HTML to server
+ - use phantomjs to verify + list links (rewrite?)
+ - ask for each link on client; upload directly to S3 from client
+ - upload HTML from server -> S3
+ - if nothing happens in an hour, GC HTML locally and any artifacts in S3
+
+sessions: use https://github.com/ymichael/sessions
+ - store in postgres

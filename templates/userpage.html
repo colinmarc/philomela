@@ -1,0 +1,26 @@
+{{define "content"}}
+<p>
+  <h2>Games by {{template "userlink" .username}}</a>:</h2>
+</p>
+
+{{range $twine := .twines}}
+  <div class="game">
+    <p class="title">
+      <a href="/{{.username}}/<%= twine.slug %>">{{ $twine.name }}</a><br/>
+    </p>
+    <div class="right">
+      <span>{{$twine.plays}} plays</span>
+      {{if eq .session.username .username}}
+        <a class="delete invisible">✕</a>
+      {{end}}
+    </div>
+    {{if eq .session.username .username}}
+    <div class="prompt">You sure? <a class="delete-yes" data-del-url="/{{.username}}/{{ $twine.slug }}/delete">Yes</a> / <a class="delete-no">No</a></div>
+    {{end}}
+  </div>
+{{else}}
+  <p>
+    {{.username}} hasn't created any games yet!
+  </p>
+{{end}}
+{{end}}

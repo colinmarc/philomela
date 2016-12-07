@@ -1,0 +1,43 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/fzzy/radix/extra/pool",
+			"repository": "https://github.com/fzzy/radix",
+			"revision": "3528e87a910c6730810cec1be187f989d7d9442a",
+			"branch": "master",
+			"path": "/extra/pool"
+		},
+		{
+			"importpath": "github.com/fzzy/radix/redis",
+			"repository": "https://github.com/fzzy/radix",
+			"revision": "3528e87a910c6730810cec1be187f989d7d9442a",
+			"branch": "master",
+			"path": "/redis"
+		},
+		{
+			"importpath": "github.com/mrjones/oauth",
+			"repository": "https://github.com/mrjones/oauth",
+			"revision": "fdd43ab9ffd4adbedbecf59a0ec6a7e0d3ef3970",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/ymichael/sessions",
+			"repository": "https://github.com/ymichael/sessions",
+			"revision": "49b61c00f079e59b047e45c3bc5016dd5c6c164d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/zenazn/goji",
+			"repository": "https://github.com/zenazn/goji",
+			"revision": "6b97834061496d40e5b1939f91b0fa5b0c225a53",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "f7716cbe52baa25d2e9b0d0da546fcf909fc16b4",
+			"branch": "v2"
+		}
+	]
+}
